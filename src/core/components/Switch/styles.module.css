@@ -1,0 +1,29 @@
+.switchRoot {
+  all: unset;
+  width: 2rem;
+  height: 1.25rem;
+  border-radius: 9999px;
+  position: relative;
+  background-color: var(--background-primary);
+  border: 1px solid rgba(202, 202, 202, 0.2);
+  cursor: pointer;
+}
+
+.switchRoot[data-state='checked'] {
+  background-color: var(--green);
+}
+
+.switchThumb {
+  display: block;
+  width: 1rem;
+  aspect-ratio: 1/1;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.1s;
+  transform: translateX(0.125rem);
+  will-change: transform;
+}
+
+.switchThumb[data-state='checked'] {
+  transform: translateX(0.875rem);
+}

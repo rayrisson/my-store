@@ -1,0 +1,14 @@
+.tag {
+  display: flex;
+  align-items: center;
+  width: min-content;
+  padding-inline: 0.5rem;
+  border-radius: 99999px;
+  border: 2px solid var(--border-color);
+  background: none;
+  user-select: none;
+}
+
+.tagText {
+  font-size: 0.75em;
+}

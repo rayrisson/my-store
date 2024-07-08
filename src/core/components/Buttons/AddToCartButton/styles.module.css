@@ -1,0 +1,21 @@
+.addToCartButton {
+  overflow: hidden;
+  width: max(12rem, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  border-radius: 0.2rem;
+  outline: 1px solid var(--border-color);
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: 700;
+}
+
+.addToCartButton:hover {
+  background-color: var(--green);
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.skeletonContainer {
+  display: flex;
+}
+
+.skeleton1 {
+  flex: 1;
+}
+.skeleton2 {
+  flex: 2;
+}
+
+.skeleton1,
+.skeleton2 {
+  width: 100%;
+  height: 24rem;
+}

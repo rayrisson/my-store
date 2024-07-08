@@ -1,0 +1,10 @@
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accordionTrigger {
+  background: none;
+  width: 100%;
+}

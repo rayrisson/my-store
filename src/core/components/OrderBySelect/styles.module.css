@@ -1,0 +1,58 @@
+.selectTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 12rem;
+  padding: 0.5rem;
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+}
+
+.triggerIcon {
+  display: none;
+}
+
+.selectViewport {
+  padding: 0.25rem;
+}
+
+.selectContent {
+  background-color: var(--background-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+}
+
+.selectItem {
+  width: min(100vw, 11.5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  user-select: none;
+}
+
+.selectItem:hover {
+  background-color: var(--border-color);
+}
+
+@media (max-width: 820px) {
+  .selectTrigger {
+    width: 3.25rem;
+    height: 3.25rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+
+  .triggerIcon {
+    display: initial;
+  }
+
+  .triggerContent {
+    display: none;
+  }
+}

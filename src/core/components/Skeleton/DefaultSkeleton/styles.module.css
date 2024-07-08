@@ -1,0 +1,24 @@
+.skeleton {
+  display: inline-block;
+  height: 2rem;
+  width: 12rem;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background-secondary);
+  border-radius: 0.75rem;
+}
+
+.skeleton::after {
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: var(--skeleton-overlay);
+  animation: shimmer 2s infinite;
+  content: '';
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
