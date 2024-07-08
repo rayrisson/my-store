@@ -1,0 +1,11 @@
+1. Na função canConstruct, primeiramente é checado se magazine é menor que ransomNote, pois se ele for, é impossível construir ransomNote com ele, pois cada letra de magazine só pode ser utilizada uma única vez em ransomNote. 
+
+2. Caso contrário, a função irá percorrer cada elemento de ransomNote e checar se magazine não possui aquele elemento.
+
+3. Caso não possua, ransomNote não pode ser construído. 
+
+4. Caso magazine possua o caractere de ransomNote, esse caractere de magazine será substituído por um caractere vazio, já que cada letra em magazine pode ser utilizado somente uma única vez em ransomNote.
+
+5. Após todos os caracteres de ransomNote serem percorridos e seja comprovado que estão em magazine, ou seja, não entraram no caso 3, podemos concluir que ransomNote pode ser construído por magazine.
+
+Então, de forma resumida, para resolver este problema, eu checo se cada caractere de ransomNote está em magazine, se estiver eu apago este caractere de magazine, para garantir a unicidade citada na pergunta, e continuo testando até encontrar um caractere que não está em magazine ou até chegar ao final de ransomNote, o que me garante que todos os caracteres de ransomNote estão em magazine, o que também nos leva a concluir que é possível construir ransomNote com os caracteres de magazine. 
