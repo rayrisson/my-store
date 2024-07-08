@@ -27,6 +27,8 @@ export default function ProductCard({ product }: ProductCardProps) {
           <Image
             src={image_url}
             alt='Product image'
+            placeholder='blur'
+            blurDataURL='/image-placeholder.png'
             className={styles.productImage}
             fill
           />
