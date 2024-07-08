@@ -1,7 +1,8 @@
+import { ReactNode } from 'react'
 import styles from './styles.module.css'
 
 interface TagProps {
-  children: string
+  children: ReactNode
 }
 
 export default function Tag({ children }: TagProps) {

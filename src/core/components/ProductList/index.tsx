@@ -1,6 +1,6 @@
+import OrderBySelect from '../OrderBySelect'
 import ProductCard from '../ProductCard'
 import styles from './styles.module.css'
-import OrderBySelect from '../OrderBySelect'
 
 const getProducts = async (searchParams?: string) => {
   const res = await fetch(

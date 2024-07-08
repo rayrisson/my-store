@@ -1,10 +1,10 @@
-import styles from './page.module.css'
+import FilterSection from '@/core/components/FilterSection'
 import Header from '@/core/components/Header'
 import ProductList from '@/core/components/ProductList'
-import FilterSection from '@/core/components/FilterSection'
+import { ProductListSkeleton } from '@/core/components/Skeleton'
 import { objectToSearchParamString } from '@/core/utils/searchParamsUtils'
 import { Suspense } from 'react'
-import { ProductListSkeleton } from '@/core/components/Skeleton'
+import styles from './page.module.css'
 
 export default async function Home({
   searchParams

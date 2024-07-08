@@ -1,10 +1,10 @@
 'use client'
 
+import { useSearchParams } from '@/core/hooks/useSearchParams'
+import { Check, Funnel } from '@phosphor-icons/react/dist/ssr'
 import * as Select from '@radix-ui/react-select'
 import { ComponentPropsWithoutRef } from 'react'
-import { useSearchParams } from '@/core/hooks/useSearchParams'
 import styles from './styles.module.css'
-import { Check, Funnel } from '@phosphor-icons/react/dist/ssr'
 
 const ORDER_BY_PARAM = 'orderBy'
 

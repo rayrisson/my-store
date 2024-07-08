@@ -1,11 +1,11 @@
 'use client'
 
-import Image from 'next/image'
-import styles from './styles.module.css'
-import ProductModal from '../ProductModal'
 import { useModalState } from '@/core/hooks/useModalState'
-import { MouseEvent } from 'react'
 import { numberToBrCurrency } from '@/core/utils/formatter'
+import Image from 'next/image'
+import { MouseEvent } from 'react'
+import ProductModal from '../ProductModal'
+import styles from './styles.module.css'
 
 interface ProductCardProps {
   product: Product

@@ -1,6 +1,6 @@
 import * as RadixSwitch from '@radix-ui/react-switch'
-import styles from './styles.module.css'
 import { ComponentPropsWithoutRef } from 'react'
+import styles from './styles.module.css'
 
 type SwitchProps = Omit<ComponentPropsWithoutRef<typeof RadixSwitch.Root>, 'className'>
 

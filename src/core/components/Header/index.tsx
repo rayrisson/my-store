@@ -1,8 +1,8 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from '../Navigation'
 import SearchInput from '../SearchInput'
 import styles from './styles.module.css'
-import Image from 'next/image'
 
 export default function Header() {
   return (

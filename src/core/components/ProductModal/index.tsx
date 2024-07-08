@@ -1,12 +1,12 @@
 import { useModalStateReturn } from '@/core/hooks/types'
-import * as Dialog from '@radix-ui/react-dialog'
-import styles from './styles.module.css'
-import Image from 'next/image'
-import { X } from '@phosphor-icons/react/dist/ssr/X'
 import { numberToBrCurrency } from '@/core/utils/formatter'
+import { X } from '@phosphor-icons/react/dist/ssr/X'
+import * as Dialog from '@radix-ui/react-dialog'
+import Image from 'next/image'
 import { AddToCartButton, BuyButton } from '../Buttons'
 import SizeSelector from '../SizeSelector'
 import Tag from '../Tag'
+import styles from './styles.module.css'
 
 interface ProductModalProps {
   product: Product

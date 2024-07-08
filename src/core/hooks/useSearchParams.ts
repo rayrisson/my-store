@@ -1,7 +1,7 @@
 import {
+  useSearchParams as useNextSearchParams,
   usePathname,
-  useRouter,
-  useSearchParams as useNextSearchParams
+  useRouter
 } from 'next/navigation'
 import { useCallback } from 'react'
 import { useSearchParamsReturn, useSearchParamsType } from './types'

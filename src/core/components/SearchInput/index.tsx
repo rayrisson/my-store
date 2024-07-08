@@ -1,9 +1,10 @@
 'use client'
-import styles from './styles.module.css'
-import { MagnifyingGlass } from '@phosphor-icons/react'
-import { ChangeEvent, FormEvent, useState } from 'react'
+
 import { searchProduct } from '@/app/actions'
 import { useSearchParams } from '@/core/hooks/useSearchParams'
+import { MagnifyingGlass } from '@phosphor-icons/react'
+import { ChangeEvent, FormEvent, useState } from 'react'
+import styles from './styles.module.css'
 
 export default function SearchInput() {
   const [searchInput, setSearchInput] = useState('')
