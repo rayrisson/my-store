@@ -7,4 +7,4 @@ A página possui tema claro/escuro baseado no sistema do usuário, layout respon
 Utilizei o Route Handlers do Next para criar rotas de API e assim simular um consumo de dados real - na API eu simplesmente consumo o JSON com os dados mockados.
 
 > [!IMPORTANT]
-> A API utiliza a porta padrão - 3000 -, se estiver utilizando outra mude a rota do fetch no componente `ProductList`.
+> A API utiliza a porta padrão - 3000 -, se estiver utilizando outra, mude a rota do fetch no componente `ProductList`.
